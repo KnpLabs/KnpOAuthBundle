@@ -11,12 +11,6 @@
 
 namespace Knp\Bundle\OAuthBundle;
 
-use Symfony\Component\HttpKernel\Bundle\Bundle,
-    Symfony\Component\DependencyInjection\ContainerBuilder;
-
-use Knp\Bundle\OAuthBundle\DependencyInjection\Security\Factory\OAuthFactory,
-    Knp\Bundle\OAuthBundle\Security\Core\UserProvider\EntityFactory;
-
 /**
  * KnpOAuthBundle
  *
@@ -24,15 +18,4 @@ use Knp\Bundle\OAuthBundle\DependencyInjection\Security\Factory\OAuthFactory,
  */
 class KnpOAuthBundle extends Bundle
 {
-    /**
-     * {@inheritDoc}
-     */
-    public function build(ContainerBuilder $container)
-    {
-        parent::build($container);
-
-        $extension = $container->getExtension('security');
-        $extension->addSecurityListenerFactory(new OAuthFactory());
-        $extension->addUserProviderFactory(new EntityFactory('entity', 'doctrine.orm.security.user.provider'));
-    }
 }
