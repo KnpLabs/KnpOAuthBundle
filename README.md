@@ -2,7 +2,7 @@
 
 ## Instructions for 2.0 branch
 
-Please note this is the 2.0 compatible branch of this bundle. 
+Please note this is the 2.0 compatible branch of this bundle.
 
 ## Introduction
 
