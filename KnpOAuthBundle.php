@@ -11,6 +11,8 @@
 
 namespace Knp\Bundle\OAuthBundle;
 
+use Symfony\Component\HttpKernel\Bundle\Bundle;
+
 /**
  * KnpOAuthBundle
  *
