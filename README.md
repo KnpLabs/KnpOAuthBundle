@@ -1,8 +1,8 @@
 # KnpOAuthBundle, an OAuth firewall for Symfony2
 
-## Instructions for 2.1 branch
+## Instructions for 2.0 branch
 
-Please note this is the 2.1 compatible branch of this bundle. If you are using Symfony 2.0.\*, then you should upgrade. If you can't, you can still use the [2.0 branch](https://github.com/KnpLabs/KnpOAuthBundle/tree/2.0).
+Please note this is the 2.0 compatible branch of this bundle. 
 
 ## Introduction
 
@@ -12,7 +12,7 @@ You should really read the [full documentation](https://github.com/KnpLabs/KnpOA
 
 ## Requirements
 
-* Symfony (_2.1 (master branch) or later_)
+* Symfony (_2.0.*_)
 * Dependencies:
  * [`Buzz`](https://github.com/kriswallsmith/Buzz) (_0.5 or later_)
  * [`SensioBuzzBundle`](https://github.com/sensio/SensioBuzzBundle)
