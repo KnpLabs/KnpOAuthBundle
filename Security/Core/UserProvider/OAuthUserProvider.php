@@ -49,6 +49,6 @@ class OAuthUserProvider implements UserProviderInterface
      */
     public function supportsClass($class)
     {
-        return $class == 'Knp\\OAuthBundle\\Security\\Core\\User\\OAuthUser';
+        return $class == 'Knp\\Bundle\\OAuthBundle\\Security\\Core\\User\\OAuthUser';
     }
 }
