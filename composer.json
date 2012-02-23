@@ -37,5 +37,5 @@
         }
     },
 
-    "target-dir": "Knp/Bundle/OAuthBundle",
+    "target-dir": "Knp/Bundle/OAuthBundle"
 }
