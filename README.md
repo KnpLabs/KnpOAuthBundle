@@ -1,3 +1,7 @@
+# This project is no longer maintained by KnpLabs
+Use [HWIOAuthBundle](https://github.com/hwi/HWIOAuthBundle) instead
+-------------------------------------------------------------------
+
 # KnpOAuthBundle, an OAuth firewall for Symfony2
 
 ## Instructions for 2.1 branch
